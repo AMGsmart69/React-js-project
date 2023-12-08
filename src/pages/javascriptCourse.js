@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "../comp/header";
 import Footer from "../comp/footer";
+import Maincontent from "../comp/maincontent";
 
 const Javascriptcourse = () => {
   return (
     <>
       <Header />
-      <main>Javascript Page</main>
+      
+      <Maincontent content="Javascript" designer="Hassan" />
+
       <Footer />
     </>
   );
