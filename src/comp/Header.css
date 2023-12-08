@@ -1,3 +1,7 @@
+.myheader .ali {
+  background-color: teal;
+}
+
 .hide-when-mobile {
   display: flex;
   justify-content: space-around;
@@ -5,10 +9,6 @@
 
 .show-when-mobile {
   display: none;
-}
-
-.myheader .ali {
-  background-color: teal;
 }
 
 @media (max-width: 800px) {
