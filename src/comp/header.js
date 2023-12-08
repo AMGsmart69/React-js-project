@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       {/* As Desktop */}
-      <header className="hide-when-mobile">
+      <header className="hide-when-mobile ali">
         <h1>
           <Link to="/">c4acrab.dev</Link>
         </h1>
