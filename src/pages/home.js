@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Header />
 
-      <Maincontent content="Home" designer="A.M.G" />
+      <Maincontent content="Home Page"/>
 
       <Footer />
     </>

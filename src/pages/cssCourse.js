@@ -8,7 +8,7 @@ const Csscourse = () => {
     <>
       <Header />
 
-      <Maincontent content="CSS" designer="Omar" />
+      <Maincontent content="CSS Page"/>
       
       <Footer />
     </>

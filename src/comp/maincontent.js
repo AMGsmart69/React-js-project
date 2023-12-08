@@ -1,12 +1,10 @@
 import React from "react";
+import "./Maincontent.css"
 
-const Maincontent = ({ content, designer }) => {
+const Maincontent = ({ content }) => {
   return (
     <>
-      <main>
-        {content} Page
-        <h2 style={{ color: "red" }}>Designed By {designer} </h2>
-      </main>
+      <main>{content}</main>
     </>
   );
 };

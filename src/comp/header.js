@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Header.css"
 
 const Header = () => {
   return (
@@ -67,7 +68,7 @@ const Header = () => {
       </header>
 
       {/* As Mobile */}
-      <header className="show-when-mobile">
+      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
         <h1>c4arab.dev</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />

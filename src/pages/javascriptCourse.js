@@ -8,7 +8,7 @@ const Javascriptcourse = () => {
     <>
       <Header />
       
-      <Maincontent content="Javascript" designer="Hassan" />
+      <Maincontent content="Javascript Page"/>
 
       <Footer />
     </>

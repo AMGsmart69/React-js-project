@@ -8,7 +8,7 @@ const Htmlcourse = () => {
     <>
       <Header />
 
-      <Maincontent content="HTML" designer="ALi" />
+      <Maincontent content="HTML Page"/>
 
       <Footer />
     </>
