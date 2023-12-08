@@ -7,6 +7,10 @@
   display: none;
 }
 
+.myheader .ali {
+  background-color: teal;
+}
+
 @media (max-width: 800px) {
   .show-when-mobile {
     display: block;

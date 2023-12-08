@@ -1,74 +1,76 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./Header.css"
+import "./Header.css";
 
 const Header = () => {
   return (
     <>
       {/* As Desktop */}
-      <header className="hide-when-mobile ali">
-        <h1>
-          <Link to="/">c4acrab.dev</Link>
-        </h1>
-        <ul className="flex">
-          <li className="main-list">
-            <NavLink className="main-link" to="/htmlCourse">
-              HTML
-            </NavLink>
-            {/* <ul className="sub-ul">
-              <li>
-                <a href="">Full Course</a>
-              </li>
-              <li>
-                <a href="">Crash Course</a>
-              </li>
-              <li>
-                <a href="">learn in 1h</a>
-              </li>
-            </ul> */}
-          </li>
-          <li className="main-list">
-            <NavLink className="main-link" to="/cssCourse">
-              CSS
-            </NavLink>
-            {/* <ul className="sub-ul">
-              <li>
-                <a href="">Full Course</a>
-              </li>
-              <li>
-                <a href="">CSS Examples</a>
-              </li>
-              <li className="mini-projects">
-                <a href="">mini projects&nbsp; + </a>
-                <ul className="sub-sub-ul">
-                  <li>
-                    <a href="">project 1</a>
-                  </li>
-                  <li>
-                    <a href="">project 2</a>
-                  </li>
-                  <li>
-                    <a href="">project 3</a>
-                  </li>
-                </ul>
-              </li>
-            </ul> */}
-          </li>
-          <li className="main-list">
-            <NavLink className="main-link" to="/javascriptCourse">
-              JavaScript
-            </NavLink>
-            {/* <ul className="sub-ul sub-of-js">
-              <li>
-                <a href="">coming soon🔥</a>
-              </li>
-            </ul> */}
-          </li>
-        </ul>
-      </header>
+      <div className="myheader">
+        <header className="hide-when-mobile ali">
+          <h1>
+            <Link to="/">c4acrab.dev</Link>
+          </h1>
+          <ul className="flex">
+            <li className="main-list">
+              <NavLink className="main-link" to="/htmlCourse">
+                HTML
+              </NavLink>
+              {/* <ul className="sub-ul">
+                <li>
+                  <a href="">Full Course</a>
+                </li>
+                <li>
+                  <a href="">Crash Course</a>
+                </li>
+                <li>
+                  <a href="">learn in 1h</a>
+                </li>
+              </ul> */}
+            </li>
+            <li className="main-list">
+              <NavLink className="main-link" to="/cssCourse">
+                CSS
+              </NavLink>
+              {/* <ul className="sub-ul">
+                <li>
+                  <a href="">Full Course</a>
+                </li>
+                <li>
+                  <a href="">CSS Examples</a>
+                </li>
+                <li className="mini-projects">
+                  <a href="">mini projects&nbsp; + </a>
+                  <ul className="sub-sub-ul">
+                    <li>
+                      <a href="">project 1</a>
+                    </li>
+                    <li>
+                      <a href="">project 2</a>
+                    </li>
+                    <li>
+                      <a href="">project 3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul> */}
+            </li>
+            <li className="main-list">
+              <NavLink className="main-link" to="/javascriptCourse">
+                JavaScript
+              </NavLink>
+              {/* <ul className="sub-ul sub-of-js">
+                <li>
+                  <a href="">coming soon🔥</a>
+                </li>
+              </ul> */}
+            </li>
+          </ul>
+        </header>
+      </div>
 
       {/* As Mobile */}
-      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+      <header className="show-when-mobile">
         <h1>c4arab.dev</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
