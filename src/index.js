@@ -10,7 +10,6 @@ import Javascriptcourse from "./pages/javascriptCourse.js";
 import { HelmetProvider } from "react-helmet-async";
 import App from "./App.js";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,7 +40,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <HelmetProvider>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
       <App />
     </HelmetProvider>
   </React.StrictMode>
